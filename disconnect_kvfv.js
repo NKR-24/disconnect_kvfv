@@ -1,5 +1,5 @@
 function disconnect_kvfv() {
-  const func = () => {
+  const func = (state) => {
     if (!state.record.__kViewerViewCode__) {
       return state;
     }
