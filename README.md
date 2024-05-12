@@ -15,4 +15,4 @@
 ## イベントタイミングを変更
 - こちらを参考に、適切なタイミングでKV-FBの連携を切る
   - https://formbridge.kintoneapp.com/help/customize
-- 現状では、KV lookupの直後に連携を切る
+- 現状では、KV lookupの直後、および確認画面の表示直前に連携を切るようになっている
